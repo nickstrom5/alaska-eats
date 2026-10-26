@@ -1,0 +1,183 @@
+{
+ "generated": "2026-10-26",
+ "domain": "https://nickstrom5.github.io/alaska-eats",
+ "restaurants": 1906,
+ "places_incl_hidden": 2036,
+ "towns": 85,
+ "counties": 27,
+ "on_an_official_list": 643,
+ "serves_alcohol": 252,
+ "hand_checked_on_a_guide": 19,
+ "guide_seafood": 6,
+ "guide_global": 6,
+ "guide_roadhouse": 3,
+ "guide_reindeer": 2,
+ "guide_sourdough": 1,
+ "guide_pages": [
+  "seafood",
+  "global"
+ ],
+ "oldest": 4,
+ "honors": 7,
+ "james_beard": 7,
+ "americas_classics": 1,
+ "liquor_updated": "2026-10-25",
+ "licenses_updated": "2026-10-25",
+ "moa_active_onprem": 252,
+ "anc_active_permits": 725,
+ "anc_inspected": 458,
+ "inspections_through": "2026-05-18",
+ "inspections_file_modified": "2026-05-19",
+ "city_pages": {
+  "Anchorage": {
+   "restaurants": 768,
+   "listed": 12,
+   "seafood": 2,
+   "global": 6,
+   "hon": 4,
+   "oldest": 1
+  }
+ },
+ "cities_without_a_page": {
+  "Fairbanks": 0,
+  "Juneau": 2,
+  "Homer": 2,
+  "Seward": 2,
+  "Ketchikan": 1,
+  "Sitka": 0,
+  "Kodiak": 0,
+  "Wasilla": 0,
+  "Palmer": 0,
+  "Talkeetna": 0,
+  "Girdwood": 1,
+  "Eagle River": 0,
+  "Soldotna": 0,
+  "Kenai": 0,
+  "Valdez": 0,
+  "Skagway": 0,
+  "Haines": 0
+ },
+ "noindex_pages": [],
+ "web_app_data_bytes": {
+  "data/ak_shapes.json": {
+   "raw": 227446,
+   "gzip": 65980
+  },
+  "data/core.json": {
+   "raw": 192569,
+   "gzip": 39614
+  },
+  "data/detail-aleutians-east-borough.json": {
+   "raw": 50,
+   "gzip": 67
+  },
+  "data/detail-aleutians-west-census-area.json": {
+   "raw": 439,
+   "gzip": 220
+  },
+  "data/detail-anchorage-municipality.json": {
+   "raw": 215986,
+   "gzip": 30989
+  },
+  "data/detail-bethel-census-area.json": {
+   "raw": 300,
+   "gzip": 163
+  },
+  "data/detail-bristol-bay-borough.json": {
+   "raw": 224,
+   "gzip": 113
+  },
+  "data/detail-chugach-census-area.json": {
+   "raw": 1346,
+   "gzip": 467
+  },
+  "data/detail-copper-river-census-area.json": {
+   "raw": 943,
+   "gzip": 381
+  },
+  "data/detail-denali-borough.json": {
+   "raw": 803,
+   "gzip": 327
+  },
+  "data/detail-dillingham-census-area.json": {
+   "raw": 280,
+   "gzip": 182
+  },
+  "data/detail-fairbanks-north-star-borough.json": {
+   "raw": 10789,
+   "gzip": 2910
+  },
+  "data/detail-haines-borough.json": {
+   "raw": 421,
+   "gzip": 190
+  },
+  "data/detail-hoonah-angoon-census-area.json": {
+   "raw": 379,
+   "gzip": 196
+  },
+  "data/detail-juneau-city-and-borough.json": {
+   "raw": 5162,
+   "gzip": 1600
+  },
+  "data/detail-kenai-peninsula-borough.json": {
+   "raw": 9718,
+   "gzip": 2837
+  },
+  "data/detail-ketchikan-gateway-borough.json": {
+   "raw": 2743,
+   "gzip": 942
+  },
+  "data/detail-kodiak-island-borough.json": {
+   "raw": 1533,
+   "gzip": 526
+  },
+  "data/detail-matanuska-susitna-borough.json": {
+   "raw": 10787,
+   "gzip": 3062
+  },
+  "data/detail-nome-census-area.json": {
+   "raw": 369,
+   "gzip": 200
+  },
+  "data/detail-north-slope-borough.json": {
+   "raw": 833,
+   "gzip": 326
+  },
+  "data/detail-northwest-arctic-borough.json": {
+   "raw": 50,
+   "gzip": 67
+  },
+  "data/detail-petersburg-borough.json": {
+   "raw": 348,
+   "gzip": 178
+  },
+  "data/detail-prince-of-wales-hyder-census-area.json": {
+   "raw": 350,
+   "gzip": 170
+  },
+  "data/detail-sitka-city-and-borough.json": {
+   "raw": 1442,
+   "gzip": 486
+  },
+  "data/detail-skagway-municipality.json": {
+   "raw": 823,
+   "gzip": 290
+  },
+  "data/detail-southeast-fairbanks-census-area.json": {
+   "raw": 477,
+   "gzip": 215
+  },
+  "data/detail-wrangell-city-and-borough.json": {
+   "raw": 208,
+   "gzip": 136
+  },
+  "data/detail-yukon-koyukuk-census-area.json": {
+   "raw": 482,
+   "gzip": 334
+  },
+  "data/ids.json": {
+   "raw": 24806,
+   "gzip": 14620
+  }
+ }
+}

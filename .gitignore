@@ -1,0 +1,34 @@
+# private: downloaded official files, the Google 2021 snapshot, pipeline caches, research, the leaderboard (Google-derived)
+/data/
+/site/
+LOCAL.md
+# research leads, including unverified press reports about places: private notes, not site copy
+LEADS.md
+.venv/
+DerivedData*/
+build/
+*.pkl
+*.xcresult
+# the private leaderboard generator (it builds the Google-2021 page in site/), as in oh-eats, wi-eats and co-eats
+scripts/make-leaderboard.py
+scripts/leaderboard-base.html
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+# App Store captures and frames (uploaded by hand, not published)
+playbook/app-store/raw/
+playbook/app-store/iphone/
+playbook/app-store/ipad/
+# secrets and signing material never go public (none exist here today; this keeps an accident out of the repo)
+.env
+.env.*
+*.p8
+*.p12
+*.pem
+*.key
+*.cer
+*.mobileprovision
+*.xcarchive
+*.ipa
+xcuserdata/
