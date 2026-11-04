@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-26",
+ "generated": "2026-11-03",
  "domain": "https://nickstrom5.github.io/alaska-eats",
- "restaurants": 1906,
+ "restaurants": 1905,
  "places_incl_hidden": 2036,
  "towns": 85,
  "counties": 27,
@@ -30,7 +30,7 @@
  "inspections_file_modified": "2026-05-19",
  "city_pages": {
   "Anchorage": {
-   "restaurants": 768,
+   "restaurants": 767,
    "listed": 12,
    "seafood": 2,
    "global": 6,
@@ -64,8 +64,8 @@
    "gzip": 65980
   },
   "data/core.json": {
-   "raw": 192569,
-   "gzip": 39614
+   "raw": 192477,
+   "gzip": 39600
   },
   "data/detail-aleutians-east-borough.json": {
    "raw": 50,
@@ -73,27 +73,27 @@
   },
   "data/detail-aleutians-west-census-area.json": {
    "raw": 439,
-   "gzip": 220
+   "gzip": 219
   },
   "data/detail-anchorage-municipality.json": {
-   "raw": 215986,
-   "gzip": 30989
+   "raw": 215927,
+   "gzip": 30964
   },
   "data/detail-bethel-census-area.json": {
    "raw": 300,
-   "gzip": 163
+   "gzip": 164
   },
   "data/detail-bristol-bay-borough.json": {
    "raw": 224,
-   "gzip": 113
+   "gzip": 114
   },
   "data/detail-chugach-census-area.json": {
    "raw": 1346,
-   "gzip": 467
+   "gzip": 470
   },
   "data/detail-copper-river-census-area.json": {
    "raw": 943,
-   "gzip": 381
+   "gzip": 382
   },
   "data/detail-denali-borough.json": {
    "raw": 803,
@@ -101,7 +101,7 @@
   },
   "data/detail-dillingham-census-area.json": {
    "raw": 280,
-   "gzip": 182
+   "gzip": 183
   },
   "data/detail-fairbanks-north-star-borough.json": {
    "raw": 10789,
@@ -113,27 +113,27 @@
   },
   "data/detail-hoonah-angoon-census-area.json": {
    "raw": 379,
-   "gzip": 196
+   "gzip": 197
   },
   "data/detail-juneau-city-and-borough.json": {
    "raw": 5162,
-   "gzip": 1600
+   "gzip": 1603
   },
   "data/detail-kenai-peninsula-borough.json": {
    "raw": 9718,
-   "gzip": 2837
+   "gzip": 2838
   },
   "data/detail-ketchikan-gateway-borough.json": {
    "raw": 2743,
-   "gzip": 942
+   "gzip": 938
   },
   "data/detail-kodiak-island-borough.json": {
    "raw": 1533,
-   "gzip": 526
+   "gzip": 527
   },
   "data/detail-matanuska-susitna-borough.json": {
-   "raw": 10787,
-   "gzip": 3062
+   "raw": 10786,
+   "gzip": 3064
   },
   "data/detail-nome-census-area.json": {
    "raw": 369,
@@ -149,19 +149,19 @@
   },
   "data/detail-petersburg-borough.json": {
    "raw": 348,
-   "gzip": 178
+   "gzip": 177
   },
   "data/detail-prince-of-wales-hyder-census-area.json": {
    "raw": 350,
-   "gzip": 170
+   "gzip": 171
   },
   "data/detail-sitka-city-and-borough.json": {
    "raw": 1442,
-   "gzip": 486
+   "gzip": 485
   },
   "data/detail-skagway-municipality.json": {
    "raw": 823,
-   "gzip": 290
+   "gzip": 291
   },
   "data/detail-southeast-fairbanks-census-area.json": {
    "raw": 477,
@@ -169,15 +169,15 @@
   },
   "data/detail-wrangell-city-and-borough.json": {
    "raw": 208,
-   "gzip": 136
+   "gzip": 137
   },
   "data/detail-yukon-koyukuk-census-area.json": {
    "raw": 482,
-   "gzip": 334
+   "gzip": 330
   },
   "data/ids.json": {
-   "raw": 24806,
-   "gzip": 14620
+   "raw": 24793,
+   "gzip": 14613
   }
  }
 }
