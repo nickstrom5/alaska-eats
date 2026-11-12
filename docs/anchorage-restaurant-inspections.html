@@ -2,7 +2,7 @@
 <html lang="en" data-base="/alaska-eats">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-YfPxYBJDc639ac4gHFGjFpJLVatKf6JcrBZeF/tuACM='; style-src 'sha256-SWz6jXHqyy1r9NcrriU/xJL6edHYCh2qhi0Lz5fjFjo='; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-YfPxYBJDc639ac4gHFGjFpJLVatKf6JcrBZeF/tuACM='; style-src 'sha256-3sk3KFjRmDFDG5kxwrLKzp+VhkK5kfU7CY0Uk/O4/1E='; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Anchorage Restaurant Inspection Scores | Alaska Eats</title>
 <meta name="description" content="Anchorage&#x27;s restaurant inspection scores out of 100, as its Health Department publishes them, for 458 places, and why there are none elsewhere in Alaska.">
@@ -29,15 +29,18 @@
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3CclipPath id='lg-r'%3E%3Crect width='64' height='64' rx='14'/%3E%3C/clipPath%3E%3CclipPath id='lg-b'%3E%3Cpath d='M9.92 33.92C9.60 26.56 13.12 22.40 19.20 22.08C32.00 21.44 46.08 25.60 54.08 30.40C55.68 31.68 55.68 36.80 54.08 38.08C46.08 42.56 32.00 45.44 19.20 44.80C13.12 44.48 10.24 40.32 9.92 33.92Z'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg clip-path='url(%23lg-r)'%3E%3Crect width='64' height='64' fill='%230F204B'/%3E%3Cpath d='M9.92 33.92C9.60 26.56 13.12 22.40 19.20 22.08C32.00 21.44 46.08 25.60 54.08 30.40C55.68 31.68 55.68 36.80 54.08 38.08C46.08 42.56 32.00 45.44 19.20 44.80C13.12 44.48 10.24 40.32 9.92 33.92Z' fill='%23F2845C'/%3E%3Cpath d='M0.00 64.00L0.00 38.72C22.40 42.56 44.80 41.28 64.00 36.48L64.00 64.00Z' fill='%23C9583A' clip-path='url(%23lg-b)'/%3E%3Cpath d='M16.64 25.60Q21.44 31.36 16.64 37.12M23.68 24.83Q28.48 31.46 23.68 38.08M30.72 25.73Q35.52 32.06 30.72 38.40M37.76 27.39Q42.56 32.83 37.76 38.27M44.16 29.44Q48.96 33.60 44.16 37.76' fill='none' stroke='%23FBE3D3' stroke-width='2.3' stroke-linecap='round'/%3E%3C/g%3E%3C/svg%3E">
 <link rel="icon" type="image/png" sizes="32x32" href="/alaska-eats/favicon-32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/alaska-eats/apple-touch-icon.png">
+<link rel="preload" href="/alaska-eats/fonts/coustard-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="manifest" href="/alaska-eats/site.webmanifest">
-<style>
+<style>  @font-face { font-family: "Coustard"; src: url("/alaska-eats/fonts/coustard-latin-ext.woff2") format("woff2"); font-weight: 900; font-style: normal; font-display: swap; unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+  @font-face { font-family: "Coustard"; src: url("/alaska-eats/fonts/coustard-latin.woff2") format("woff2"); font-weight: 900; font-style: normal; font-display: swap; unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
   :root {
     --bg: #f5f6f9; --surface: #fff; --surface2: #eef1f7; --rule: #dbe0eb;
     --ink: #0b1530; --ink2: #22304f; --muted: #535e76;
     --accent: #0f204b; --accent2: #2a4a8c; --on-accent: #fff; --orange: #ffb612; --on-orange: #0f204b; --plum: #b5472c; --lime: #ffebb8; --soft: #e1e6f1; --limesoft: #fff6dc;
     --focus: #2a4a8c;
     --radius: 16px;
-    --display: "Avenir Next Condensed", "Helvetica Neue Condensed", "Roboto Condensed", "Arial Narrow", system-ui, sans-serif;
+    --display: "Avenir Next Condensed", "Helvetica Neue Condensed", "Roboto Condensed", "Arial Narrow", system-ui, sans-serif; --head-font: "Coustard", "Avenir Next Condensed", "Helvetica Neue Condensed", "Roboto Condensed", "Arial Narrow", system-ui, sans-serif;
     --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
   }
   @media (prefers-color-scheme: dark) {
@@ -59,16 +62,16 @@
   .stripes i:nth-child(1) { background: #0f204b; }
   .stripes i:nth-child(2) { background: #ffb612; }
   .stripes i:nth-child(3) { background: #0f204b; }
-  .logo { display: flex; align-items: center; gap: 10px; font: 800 24px/1 var(--display); text-transform: uppercase; letter-spacing: .01em; color: var(--accent); text-decoration: none; }
+  .logo { display: flex; align-items: center; gap: 10px; font: 900 17px/1 var(--head-font); text-transform: uppercase; letter-spacing: .01em; color: var(--accent); text-decoration: none; }
   .logo svg { flex: 0 0 auto; border-radius: 7px; }
   header.site nav { display: flex; flex-wrap: wrap; gap: 4px 16px; justify-content: flex-end; }
   header.site nav a { color: var(--ink2); text-decoration: none; font-size: 15px; }
   header.site nav a:hover { color: var(--accent); text-decoration: underline; }
-  h1, h2 { font-family: var(--display); font-weight: 800; color: var(--accent); letter-spacing: -.005em; }
-  h1 { font-size: clamp(40px, 8.5vw, 64px); line-height: .95; margin: 0 0 18px; text-transform: uppercase; overflow-wrap: break-word; text-shadow: 3px 3px 0 var(--plum); }
+  h1, h2 { font-family: var(--head-font); font-weight: 900; color: var(--accent); letter-spacing: -.005em; }
+  h1 { font-size: clamp(28px, 8.75vw, 47px); line-height: 1.02; margin: 0 0 18px; text-transform: uppercase; overflow-wrap: break-word; text-wrap: balance; }
   .kicker { font: 600 13px/1.4 var(--mono); letter-spacing: .04em; text-transform: uppercase; color: var(--accent); margin: 0 0 12px; }
   .kicker::before { content: ""; display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: var(--orange); margin: 0 8px 1px 0; }
-  h2 { font-size: 34px; line-height: 1.02; margin: 0 0 10px; text-transform: uppercase; }
+  h2 { font-size: 25px; line-height: 1.02; margin: 0 0 10px; text-transform: uppercase; }
   h3 { font-size: 18px; margin: 0; line-height: 1.3; }
   .lede { font-size: 19px; color: var(--ink2); margin: 0 0 26px; }
   .hero { padding: 44px 0 28px; }
@@ -93,7 +96,7 @@
   .shots p { font-size: 14px; color: var(--muted); margin: 8px 2px 0; }
   .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
   .card { background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius); padding: 18px; }
-  .card h3 { font: 800 21px/1.1 var(--display); text-transform: uppercase; letter-spacing: .01em; }
+  .card h3 { font: 900 16px/1.1 var(--head-font); text-transform: uppercase; letter-spacing: .01em; }
   a.card.gc { display: flex; flex-direction: column; gap: 6px; border: 0; border-radius: 18px; min-height: 150px; }
   a.card.gc b { font: 600 32px/1 var(--mono); margin-bottom: auto; }
   a.card.gc p, a.card.gc h3 { color: inherit; }
