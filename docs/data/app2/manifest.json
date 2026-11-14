@@ -1,0 +1,63 @@
+{
+ "schema": 2,
+ "version": "2026-11-03.1",
+ "records_through": "2026-11-03",
+ "min_app_build": 1,
+ "files": {
+  "detail-anchorage": {
+   "path": "detail-anchorage-a5bd73cb1397.json",
+   "sha256": "a5bd73cb1397c9b264e9c9419624fb7ade0bd0af929fee58d599bc1254a2e0ca",
+   "bytes": 163667
+  },
+  "detail-interior": {
+   "path": "detail-interior-38c7a50fd724.json",
+   "sha256": "38c7a50fd7244ca67ae9f4cc6226de53c548d26d61f87667e6ec2d4b53f650e1",
+   "bytes": 14809
+  },
+  "detail-kenai-peninsula": {
+   "path": "detail-kenai-peninsula-b504090e0c6f.json",
+   "sha256": "b504090e0c6fc0786c67a62c95df4629249ba63774838c100ba0cd97c719a70d",
+   "bytes": 11086
+  },
+  "detail-kodiak-southwest-aleutians": {
+   "path": "detail-kodiak-southwest-aleutians-807b27bfbc18.json",
+   "sha256": "807b27bfbc188b72f6e75f899f519d71151cebb454a5aef1ecba4d22ec42495b",
+   "bytes": 3178
+  },
+  "detail-mat-su": {
+   "path": "detail-mat-su-0e9854c6c4a7.json",
+   "sha256": "0e9854c6c4a7f0e86359a1ad00a3d913bcc979a95e6851825df49ce843353d36",
+   "bytes": 12635
+  },
+  "detail-prince-william-sound-copper-river": {
+   "path": "detail-prince-william-sound-copper-river-b55a34b22d2a.json",
+   "sha256": "b55a34b22d2a6c98a317ae00fe3a9be4b5a19334dd0b9ff351f79325d778f5cc",
+   "bytes": 2521
+  },
+  "detail-southeast": {
+   "path": "detail-southeast-0f4934739ac9.json",
+   "sha256": "0f4934739ac9e6090919ec51aae8f6e7d186d7f853d7fabaec8c7fe7b4bd028f",
+   "bytes": 13805
+  },
+  "detail-western-arctic": {
+   "path": "detail-western-arctic-ba8bc9730445.json",
+   "sha256": "ba8bc9730445213168383d5e63c67dc1a1f20d7e81f4db34ed57afd5190adbc0",
+   "bytes": 1358
+  },
+  "places": {
+   "path": "places-69dce46e649e.json",
+   "sha256": "69dce46e649e48f11cfbaa00ace1eba1c73a1cbc646fcd6dbdc2f64785b1fd48",
+   "bytes": 351399
+  },
+  "state": {
+   "path": "state-87e3205673e2.json",
+   "sha256": "87e3205673e2720fea30afb9465d702df73956f60c4bc30bb09e0935775d33b8",
+   "bytes": 6554
+  }
+ },
+ "counts": {
+  "places": 2036,
+  "restaurants": 1905,
+  "bytes": 581012
+ }
+}
